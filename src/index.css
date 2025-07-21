@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+:root {
+    --background-color: #202020;
+    --light-background: #303030;
+}
+
+
+@font-face {
+    font-family: 'funnel-sans';
+    src: url('./assets/fonts/Funnel_Sans/FunnelSans-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.funnel-sans {
+    font-family: 'funnel-sans';
+}
+
+.editorContent * {
+    outline: none;
+}
+
+code {
+    background: #000;
+    border-radius: 12px;
+    padding: 8px;
+    margin: 8px;
+}
+
+.editorContent h1 {
+    font-size: 2.25rem;
+}
+
+.editorContent h2 {
+    font-size: 1.875rem;
+}
+
+.editorContent h3 {
+    font-size: 1.5rem;
+}
+
+.editorContent h4 {
+    font-size: 1.25rem;
+}
+
+.editorContent h5 {
+    font-size: 1.125rem;
+}
+
+.editorContent h6 {
+    font-size: 1rem;
+}
