@@ -51,7 +51,7 @@ export default function Editor() {
             }),
         ],
         content: `
-          <strong>&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; TEDITOR</strong>
+          <strong>TEDITOR</strong>
           
           <br />
           
