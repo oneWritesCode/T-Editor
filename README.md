@@ -1,79 +1,72 @@
 # T-Editor: A Rich Text Editor Built with React and Tiptap
-![thumbnail](./public/assets/landingPage-da7a1972-6c6b-4bd5-82e8-518b21560976)
+![thumbnail](https://iad.microlink.io/XKCpWCuxz0HTECFpMWGRwzxM8KmwiHabyvLTRxp9fmh6Sq_Z7hfnClkKv2S58i9yxLYTyy_17RkGITPyc7R02w.png)
 
 ## 🗂️ Description
 
-T-Editor is a rich text editor built with React and Tiptap, designed to provide a seamless editing experience. This project is perfect for developers who want to integrate a customizable and feature-rich editor into their applications. With T-Editor, users can format text, upload images, and enjoy a range of font families.
+T-Editor is a rich text editor built with React and Tiptap, designed to provide a seamless editing experience. This project is ideal for developers who want to integrate a customizable text editor into their applications. With T-Editor, you can create and edit rich text content with various formatting options.
+
+T-Editor is built with a modular architecture, making it easy to extend and customize. The editor is designed to be highly configurable, allowing developers to add or remove features as needed.
 
 ## ✨ Key Features
 
 ### **Editor Features**
 
-* Rich text editing with font family, font size, and text color options
-* Bold, italic, strike-through, and highlight formatting
-* Undo/redo functionality
-* Image uploading and management
-* Customizable font families
+* Rich text editing with various formatting options (font family, font size, color, etc.)
+* Customizable toolbar with buttons for undo, redo, and other editing actions
+* Support for multiple font families and sizes
 
 ### **Technical Features**
 
 * Built with React and Tiptap
-* Utilizes Vite as the development server and bundler
-* Supports Tailwind CSS for styling
-* Integrates ESLint for code linting
+* Modular architecture for easy customization and extension
+* Highly configurable
 
 ## 🗂️ Folder Structure
 
 ```mermaid
 graph TD;
-  src-->components;
-  src-->assets;
-  src-->extensions;
-  components-->Editor.jsx;
-  assets-->fonts;
-  extensions-->FontSize.js;
+src-->components;
+src-->assets;
+src-->extensions;
+components-->Editor.jsx;
+assets-->fonts;
+extensions-->FontSize.js;
 ```
 
 ## 🛠️ Tech Stack
 
 ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white&style=for-the-badge)
-![Tiptap](https://img.shields.io/badge/Tiptap-4EA94B?logo=tiptap&logoColor=white&style=for-the-badge)
-![Vite](https://img.shields.io/badge/Vite-4EA94B?logo=vite&logoColor=white&style=for-the-badge)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwind-css&logoColor=white&style=for-the-badge)
-![ESLint](https://img.shields.io/badge/ESLint-4EA94B?logo=eslint&logoColor=white&style=for-the-badge)
+![Tiptap](https://img.shields.io/badge/Tiptap-0071B5?logo=tiptap&logoColor=white&style=for-the-badge)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white&style=for-the-badge)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=white&style=for-the-badge)
 
 ## ⚙️ Setup Instructions
 
 To run T-Editor locally, follow these steps:
 
-* Clone the repository: `git clone https://github.com/abhraneeldhar7/T-Editor.git`
+* Clone the repository: `git clone https://github.com/oneWritesCode/T-Editor.git`
 * Install dependencies: `npm install` or `yarn install`
 * Start the development server: `npm run dev` or `yarn dev`
-* Open your browser and navigate to `http://localhost:5173`
 
-## 📁 GitHub Actions
+## 📦 GitHub Actions
 
-This repository uses GitHub Actions to automate tasks. The workflow files are located in the `.github/workflows` directory.
+T-Editor uses GitHub Actions for continuous integration and deployment. The workflow is defined in the `.github/workflows/main.yml` file.
 
-## 🤝 Code Quality
+## 📝 Editor Configuration
 
-T-Editor uses ESLint to maintain code quality and enforce coding standards. The ESLint configuration file is located at `eslint.config.js`.
+The editor configuration is defined in the `src/Components/Editor.jsx` file. You can customize the editor by adding or removing features, and modifying the toolbar buttons.
 
 ## 📚 Fonts
 
-T-Editor includes several font families, each with its own license and documentation. The fonts are located in the `src/assets/Fonts` directory.
-
-## 💻 Contributing
-
-While contributions are not currently accepted, feel free to fork the repository and modify it to suit your needs. If you have any questions or issues, please open an issue on the repository.
+T-Editor includes several font families, including Funnel Sans, Mogra, Sour Gummy, Bonheur Royale, and Alumni Sans Pinstripe. You can find more information about each font in the `src/assets/Fonts` directory.
 
 
 
 <br><br>
 <div align="center">
-<img src="https://avatars.githubusercontent.com/u/89008279?v=4" width="120" />
-<h3>Abhra the Neel</h3>
-<p>Full-stack developer with expertise in web, Android, and server-side development. Most projects are private due to being production code.</p>
+<img src="https://avatars.githubusercontent.com/u/181527661?v=4" width="120" />
+<h3>deepak</h3>
+<p>Self-taught web developer.</p>
 </div>
 <br>
 <p align="right">
