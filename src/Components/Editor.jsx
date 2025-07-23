@@ -230,7 +230,7 @@ export default function Editor() {
 
             <div className="w-full flex items-start justify-center mt-10">
                 <div
-                    className="editorContent w-full p-10 max-w-4xl rounded-xl shadow-lg prose prose-lg"
+                    className="editorContent w-full p-10 max-w-4xl rounded-xl shadow-lg prose prose-lg leading-relaxed "
                     onClick={() => editor?.commands.focus()}
                 >
                     <EditorContent

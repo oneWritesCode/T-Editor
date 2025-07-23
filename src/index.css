@@ -46,3 +46,13 @@ img {
     margin: auto;
     padding: 10px;
 }
+
+/* styling to fix bugs in hightights __________________ */
+.ProseMirror mark,
+.ProseMirror span[style*="background-color"] {
+    line-height: 1.4;
+    /* or try 1.5 for more space */
+    padding: 0.1em 0.2em;
+    display: inline-block;
+    vertical-align: middle;
+}
