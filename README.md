@@ -1,43 +1,47 @@
-# T-Editor: A Rich Text Editor Built with React and Tiptap
+# T-Editor: A Rich Text Editor Built with Tiptap and React
 ![thumbnail](https://iad.microlink.io/XKCpWCuxz0HTECFpMWGRwzxM8KmwiHabyvLTRxp9fmh6Sq_Z7hfnClkKv2S58i9yxLYTyy_17RkGITPyc7R02w.png)
 
 ## 🗂️ Description
 
-T-Editor is a rich text editor built with React and Tiptap, designed to provide a seamless editing experience. This project is ideal for developers who want to integrate a customizable text editor into their applications. With T-Editor, you can create and edit rich text content with various formatting options.
+T-Editor is a customizable rich text editor built using Tiptap and React. It's designed for developers who want to integrate a feature-rich text editor into their web applications. With T-Editor, you can create and edit rich text content with various formatting options, including bold, italic, strike-through, and highlight, as well as font family and size controls.
 
-T-Editor is built with a modular architecture, making it easy to extend and customize. The editor is designed to be highly configurable, allowing developers to add or remove features as needed.
+T-Editor is perfect for applications that require a high degree of customization and flexibility, such as content management systems, blogging platforms, and online documentation tools.
 
 ## ✨ Key Features
 
 ### **Editor Features**
 
-* Rich text editing with various formatting options (font family, font size, color, etc.)
-* Customizable toolbar with buttons for undo, redo, and other editing actions
-* Support for multiple font families and sizes
+* Rich text formatting options: bold, italic, strike-through, highlight, and more
+* Font family and size controls
+* Undo/redo functionality
+* Image uploading and management
+* Customizable toolbar buttons
 
 ### **Technical Features**
 
-* Built with React and Tiptap
-* Modular architecture for easy customization and extension
-* Highly configurable
+* Built with Tiptap and React
+* Uses Vite as the build tool
+* Supports ESLint for code linting
+* Customizable extensions and plugins
 
 ## 🗂️ Folder Structure
 
 ```mermaid
 graph TD;
-src-->components;
-src-->assets;
-src-->extensions;
-components-->Editor.jsx;
-assets-->fonts;
-extensions-->FontSize.js;
+  src-->components;
+  src-->assets;
+  src-->extensions;
+  components-->Editor.jsx;
+  assets-->fonts;
+  extensions-->FontSize.js;
 ```
 
 ## 🛠️ Tech Stack
 
+![Vite](https://img.shields.io/badge/Vite-646cff?logo=vite&logoColor=white&style=for-the-badge)
 ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white&style=for-the-badge)
-![Tiptap](https://img.shields.io/badge/Tiptap-0071B5?logo=tiptap&logoColor=white&style=for-the-badge)
-![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white&style=for-the-badge)
+![Tiptap](https://img.shields.io/badge/Tiptap-4f46e5?logo=tiptap&logoColor=white&style=for-the-badge)
+![ESLint](https://img.shields.io/badge/ESLint-4B088E?logo=eslint&logoColor=white&style=for-the-badge)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=white&style=for-the-badge)
 
 ## ⚙️ Setup Instructions
@@ -45,20 +49,27 @@ extensions-->FontSize.js;
 To run T-Editor locally, follow these steps:
 
 * Clone the repository: `git clone https://github.com/oneWritesCode/T-Editor.git`
-* Install dependencies: `npm install` or `yarn install`
-* Start the development server: `npm run dev` or `yarn dev`
+* Install dependencies: `npm install`
+* Start the development server: `npm run dev`
+* Open your browser and navigate to `http://localhost:5173`
 
-## 📦 GitHub Actions
+## 📁 Configuration Files
 
-T-Editor uses GitHub Actions for continuous integration and deployment. The workflow is defined in the `.github/workflows/main.yml` file.
+* `vite.config.js`: Configuration file for Vite
+* `eslint.config.js`: Configuration file for ESLint
+* `package.json`: Project metadata and dependencies
 
-## 📝 Editor Configuration
+## 🤔 GitHub Actions
 
-The editor configuration is defined in the `src/Components/Editor.jsx` file. You can customize the editor by adding or removing features, and modifying the toolbar buttons.
+This repository uses GitHub Actions for automated testing and deployment. The workflow is defined in the `.github/workflows/main.yml` file.
 
-## 📚 Fonts
+## 📝 Editor Customization
 
-T-Editor includes several font families, including Funnel Sans, Mogra, Sour Gummy, Bonheur Royale, and Alumni Sans Pinstripe. You can find more information about each font in the `src/assets/Fonts` directory.
+To customize the editor, you can create your own extensions and plugins using Tiptap's API. For example, you can create a custom font size extension by creating a new file in the `src/extensions` directory and importing it in the `src/Components/Editor.jsx` file.
+
+## 🖋️ Fonts
+
+The repository includes several font files, including Funnel Sans, Mogra, Sour Gummy, Bonheur Royale, and Alumni Sans Pinstripe. These fonts are used in the editor for font family and size controls.
 
 
 
@@ -66,7 +77,7 @@ T-Editor includes several font families, including Funnel Sans, Mogra, Sour Gumm
 <div align="center">
 <img src="https://avatars.githubusercontent.com/u/181527661?v=4" width="120" />
 <h3>deepak</h3>
-<p>Self-taught web developer.</p>
+<p>Passionate developer striving for flawlessness in code and craft.</p>
 </div>
 <br>
 <p align="right">
